@@ -3,14 +3,15 @@ li {
 }
 
 body {
- background-image: -webkit-image-set(https://previews.123rf.com/images/svtrotof/svtrotof1102/svtrotof110200092/8912398-bubbles-background.jpg);
+ background-image:url("https://www.freepik.com/free-vector/clear-bubble-design-element-vector-blue-background_17221254.htm#query=bubble%20clipart&position=16&from_view=keyword&track=ais&uuid=b7e382b0-d9e2-4aaf-81d4-f85a1ee72c40");
+ background-size: cover;
  border-color: rgb(80, 80, 244);
  margin-top: auto;
  padding: 100px;
 }
 img{ 
-height: 100px; 
-width:150px ;
+height: 200px; 
+width: 350px ;
 }
 h1 {
     text-align: center;
@@ -19,6 +20,7 @@ h1 {
 }
 #success{
     display:flex;
+    flex-direction: column;
 }
 
 h3 {
