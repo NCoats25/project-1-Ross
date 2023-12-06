@@ -3,21 +3,18 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
 }
-li {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 
 body {
 
 }
 img{ 
-height: 200px; 
-width: 350px ;
+height: 300px; 
+width: 400px ;
 }
 h1 {
     text-align: center;
     font-family: fantasy;
-    font-size-adjust: top 500px;
+    font-size-adjust: top 1500px;
 }
 #success{
     display:flex;
@@ -33,12 +30,12 @@ h3 {
     list-style-type: none;
     margin:0;
     padding:0;
-    width:200px;
+    width:500px;
     background-color: gainsboro;
 }
 
-.nav li a {
-    display:block;
+.container{
+    display:grid | inline-grid;
     color:rgb(12, 10, 10);
     padding: 8px 16px;
     text-decoration: none;
@@ -48,4 +45,10 @@ h3 {
     background border-top: ;
     color:black;
     font-size: larger;
+
+    footer {
+        display: block;
+        color: black;
+        font-size: 400px;
+      }
 }
