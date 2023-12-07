@@ -9,7 +9,7 @@ body {
 }
 .header {
     grid-area: header;
-    background-color: rgb(144, 160, 194);
+    background-color: rgb(117, 158, 247);
     padding:1px;
     text-aline: center;
     font size:1px;
@@ -54,9 +54,10 @@ h3 {
     color:black;
     font-size: larger;
 
-    footer {
-        display: block;
-        color: black;
-        font-size: 400px;
-      }
+}
+footer{
+    grid-area: footer;
+    background-color: rgb(117, 158, 247);
+    padding: 10px;
+    text-align: center;
 }
