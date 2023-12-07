@@ -7,6 +7,14 @@ html{
 body {
 
 }
+.header {
+    grid-area: header;
+    background-color: rgb(144, 160, 194);
+    padding:1px;
+    text-aline: center;
+    font size:1px;
+}
+
 img{ 
 height: 300px; 
 width: 400px ;
